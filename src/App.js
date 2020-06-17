@@ -96,6 +96,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 15,
     backgroundColor: "#fff",
     padding: 20,
+    borderRadius: 10
   },
   repository: {
     fontSize: 32,
@@ -106,13 +107,14 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   tech: {
-    fontSize: 12,
+    fontSize: 14,
     fontWeight: "bold",
     marginRight: 10,
     backgroundColor: "#04d361",
     paddingHorizontal: 10,
     paddingVertical: 5,
     color: "#fff",
+    borderRadius: 20
   },
   likesContainer: {
     marginTop: 15,
@@ -120,7 +122,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   likeText: {
-    fontSize: 14,
+    fontSize: 18,
     fontWeight: "bold",
     marginRight: 10,
   },
@@ -128,7 +130,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   buttonText: {
-    fontSize: 14,
+    fontSize: 18,
     fontWeight: "bold",
     marginRight: 10,
     color: "#fff",
